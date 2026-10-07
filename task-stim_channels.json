@@ -1,0 +1,14 @@
+{
+  "source_name": {
+    "Description": "Channel name as stored in the release (selectAnatomy row 1); BIDS name gets a _N suffix only if a name repeats or is empty"
+  },
+  "long_name": {
+    "Description": "Long electrode name (selectAnatomy row 2)"
+  },
+  "electrode_type": {
+    "Description": "Electrode type from the release (grid / strip / depth)"
+  },
+  "region": {
+    "Description": "Anatomical region label from the release (selectAnatomy row 4)"
+  }
+}

@@ -1,0 +1,65 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	status	status_description	source_name	long_name	electrode_type	region
+OFC1	MISC	µV	n/a	n/a	22000.0	good	n/a	OFC1	n/a	n/a	n/a
+OFC2	MISC	µV	n/a	n/a	22000.0	good	n/a	OFC2	n/a	n/a	n/a
+OFC3	MISC	µV	n/a	n/a	22000.0	good	n/a	OFC3	n/a	n/a	n/a
+OFC4	MISC	µV	n/a	n/a	22000.0	good	n/a	OFC4	n/a	n/a	n/a
+OFC5	MISC	µV	n/a	n/a	22000.0	good	n/a	OFC5	n/a	n/a	n/a
+OFC6	MISC	µV	n/a	n/a	22000.0	good	n/a	OFC6	n/a	n/a	n/a
+OFC7	MISC	µV	n/a	n/a	22000.0	good	n/a	OFC7	n/a	n/a	n/a
+OFC8	MISC	µV	n/a	n/a	22000.0	good	n/a	OFC8	n/a	n/a	n/a
+Amygdala 1	MISC	µV	n/a	n/a	22000.0	good	n/a	Amygdala 1	n/a	n/a	n/a
+Amygdala 2	MISC	µV	n/a	n/a	22000.0	good	n/a	Amygdala 2	n/a	n/a	n/a
+Amygdala 3	MISC	µV	n/a	n/a	22000.0	good	n/a	Amygdala 3	n/a	n/a	n/a
+Amygdala 4	MISC	µV	n/a	n/a	22000.0	good	n/a	Amygdala 4	n/a	n/a	n/a
+Hippocampus 1	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 1	n/a	n/a	n/a
+Hippocampus 2	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 2	n/a	n/a	n/a
+Hippocampus 3	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 3	n/a	n/a	n/a
+Hippocampus 4	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 4	n/a	n/a	n/a
+Hippocampus 5	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 5	n/a	n/a	n/a
+Hippocampus 6	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 6	n/a	n/a	n/a
+Hippocampus 7	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 7	n/a	n/a	n/a
+Hippocampus 8	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 8	n/a	n/a	n/a
+Hippocampus 9	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 9	n/a	n/a	n/a
+Hippocampus 10	MISC	µV	n/a	n/a	22000.0	good	n/a	Hippocampus 10	n/a	n/a	n/a
+frontal A 1 	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal A 1 	n/a	n/a	n/a
+frontal A 2	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal A 2	n/a	n/a	n/a
+frontal A 3	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal A 3	n/a	n/a	n/a
+frontal A 4	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal A 4	n/a	n/a	n/a
+frontal A 5	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal A 5	n/a	n/a	n/a
+frontal A 6	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal A 6	n/a	n/a	n/a
+frontal B 1	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal B 1	n/a	n/a	n/a
+frontal B 2	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal B 2	n/a	n/a	n/a
+frontal B 3	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal B 3	n/a	n/a	n/a
+frontal B 4	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal B 4	n/a	n/a	n/a
+frontal B 5	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal B 5	n/a	n/a	n/a
+frontal B 6	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal B 6	n/a	n/a	n/a
+frontal C 1	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal C 1	n/a	n/a	n/a
+frontal C 2	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal C 2	n/a	n/a	n/a
+frontal C 3	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal C 3	n/a	n/a	n/a
+frontal C 4	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal C 4	n/a	n/a	n/a
+frontal C 5	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal C 5	n/a	n/a	n/a
+frontal C 6	MISC	µV	n/a	n/a	22000.0	good	n/a	frontal C 6	n/a	n/a	n/a
+Parietal F 1	MISC	µV	n/a	n/a	22000.0	good	n/a	Parietal F 1	n/a	n/a	n/a
+Parietal F 2	MISC	µV	n/a	n/a	22000.0	good	n/a	Parietal F 2	n/a	n/a	n/a
+Parietal F 3	MISC	µV	n/a	n/a	22000.0	good	n/a	Parietal F 3	n/a	n/a	n/a
+Parietal F 4	MISC	µV	n/a	n/a	22000.0	good	n/a	Parietal F 4	n/a	n/a	n/a
+Parietal F 5	MISC	µV	n/a	n/a	22000.0	good	n/a	Parietal F 5	n/a	n/a	n/a
+Parietal F 6	MISC	µV	n/a	n/a	22000.0	good	n/a	Parietal F 6	n/a	n/a	n/a
+Perietal  E 1	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal  E 1	n/a	n/a	n/a
+Perietal  E 2	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal  E 2	n/a	n/a	n/a
+Perietal  E 3	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal  E 3	n/a	n/a	n/a
+Perietal  E 4	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal  E 4	n/a	n/a	n/a
+Perietal  E 5	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal  E 5	n/a	n/a	n/a
+Perietal  E 6	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal  E 6	n/a	n/a	n/a
+Perietal D 1	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal D 1	n/a	n/a	n/a
+Perietal D 2	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal D 2	n/a	n/a	n/a
+Perietal D 3	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal D 3	n/a	n/a	n/a
+Perietal D 4	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal D 4	n/a	n/a	n/a
+Perietal D 5	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal D 5	n/a	n/a	n/a
+Perietal D 6	MISC	µV	n/a	n/a	22000.0	good	n/a	Perietal D 6	n/a	n/a	n/a
+Empty	MISC	µV	n/a	n/a	22000.0	good	n/a	Empty	n/a	n/a	n/a
+Empty_2	MISC	µV	n/a	n/a	22000.0	good	n/a	Empty	n/a	n/a	n/a
+Empty_3	MISC	µV	n/a	n/a	22000.0	good	n/a	Empty	n/a	n/a	n/a
+Empty_4	MISC	µV	n/a	n/a	22000.0	good	n/a	Empty	n/a	n/a	n/a
+Empty_5	MISC	µV	n/a	n/a	22000.0	good	n/a	Empty	n/a	n/a	n/a
+Empty_6	MISC	µV	n/a	n/a	22000.0	good	n/a	Empty	n/a	n/a	n/a

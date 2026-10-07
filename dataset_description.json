@@ -1,0 +1,50 @@
+{
+  "Name": "iEEG during direct electrical stimulation of orbitofrontal and other sites (Rao, Sellers et al., 2018): continuous-stimulation and single-pulse recordings",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Vikram Rao",
+    "Kristin Sellers",
+    "Deanna Wallace",
+    "Morgan Lee",
+    "Maryam Bijanzadeh",
+    "Omid Sani",
+    "Yuxiao Yang",
+    "Maryam Shanechi",
+    "Heather Dawes",
+    "Edward Chang"
+  ],
+  "Acknowledgements": "Data released by the authors on Dryad (doi:10.7272/Q6VD6WM2). Converted to iEEG-BIDS for NEMAR.",
+  "HowToAcknowledge": "Please cite Rao VR, Sellers KK, Wallace DL, Lee MB, Bijanzadeh M, Sani OG, Yang Y, Shanechi MM, Dawes HE, Chang EF (2018). Direct electrical stimulation of lateral orbitofrontal cortex acutely improves mood in individuals with symptoms of depression. Current Biology 28(24):3893-3902. doi:10.1016/j.cub.2018.10.026; and the dataset doi:10.7272/Q6VD6WM2.",
+  "Funding": [
+    "Defense Advanced Research Projects Agency (DARPA) W911NF-14-2-0043"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1016/j.cub.2018.10.026",
+    "https://doi.org/10.7272/Q6VD6WM2",
+    "https://zenodo.org/records/5076490"
+  ],
+  "Keywords": [
+    "direct electrical stimulation",
+    "orbitofrontal cortex",
+    "mood",
+    "depression",
+    "ECoG",
+    "SEEG",
+    "single-pulse electrical stimulation"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.7272/Q6VD6WM2",
+      "URL": "https://datadryad.org/dataset/doi:10.7272/Q6VD6WM2",
+      "Version": "Dryad version 2 (published 2018-10-05)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "b2dryad_convert037.py",
+      "Description": "MATLAB v7.3 raw iEEG -> BrainVision float32 (float64 rounded to float32), channel/electrode tables from the release. Code in code/."
+    }
+  ]
+}

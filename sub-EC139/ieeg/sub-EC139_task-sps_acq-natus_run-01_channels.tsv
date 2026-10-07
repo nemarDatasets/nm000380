@@ -1,0 +1,5 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	status	status_description	source_name	long_name	electrode_type	region
+OF1	ECOG	µV	n/a	n/a	2048.0	good	n/a	OF1	OFCStripElectrode1	strip	medialorbitofrontal
+OF2	ECOG	µV	n/a	n/a	2048.0	good	n/a	OF2	OFCStripElectrode2	strip	medialorbitofrontal
+OF3	ECOG	µV	n/a	n/a	2048.0	good	n/a	OF3	OFCStripElectrode3	strip	lateralorbitofrontal
+OF4	ECOG	µV	n/a	n/a	2048.0	good	n/a	OF4	OFCStripElectrode4	strip	lateralorbitofrontal

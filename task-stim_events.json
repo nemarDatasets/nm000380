@@ -1,0 +1,5 @@
+{
+  "trial_type": {
+    "Description": "One row spanning the whole file; stimulation timing is not annotated in the release (the authors' scripts detect stimulation artifacts from the signal)."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "long_name": {
+    "Description": "Long electrode name (anatomy column 2 of the release electrode file)"
+  },
+  "region": {
+    "Description": "Anatomical region label (anatomy column 4)"
+  }
+}

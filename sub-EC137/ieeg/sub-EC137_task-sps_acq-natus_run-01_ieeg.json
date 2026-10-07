@@ -1,0 +1,18 @@
+{
+  "TaskName": "sps",
+  "TaskDescription": "Raw iEEG during single-pulse electrical stimulation (before/after continuous stimulation, per the release)",
+  "SamplingFrequency": 8192.0,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "Manufacturer": "Natus",
+  "iEEGReference": "n/a (not stated in the release)",
+  "RecordingType": "continuous",
+  "RecordingDuration": 305.1759033203125,
+  "ECOGChannelCount": 8,
+  "SEEGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "ElectricalStimulation": true,
+  "ElectricalStimulationParameters": "single-pulse stimulation; amplitude not stated in file name; site lateral OFC (README: no location in the file name = lateral OFC) (from source file name EC137_rawData_SPS.mat)"
+}

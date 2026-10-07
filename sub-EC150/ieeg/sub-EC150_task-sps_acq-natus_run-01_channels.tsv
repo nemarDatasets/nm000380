@@ -1,0 +1,8 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	status	status_description	source_name	long_name	electrode_type	region
+LOF1	SEEG	µV	n/a	n/a	1024.0	good	n/a	LOF1	LeftOFCDepthElectrode1	depth	ctx_lh_G_rectus
+LOF2	SEEG	µV	n/a	n/a	1024.0	good	n/a	LOF2	LeftOFCDepthElectrode2	depth	ctx_lh_G_rectus
+LOF3	SEEG	µV	n/a	n/a	1024.0	good	n/a	LOF3	LeftOFCDepthElectrode3	depth	ctx_lh_G_orbital
+LOF4	SEEG	µV	n/a	n/a	1024.0	good	n/a	LOF4	LeftOFCDepthElectrode4	depth	ctx_lh_G_orbital
+LOF5	SEEG	µV	n/a	n/a	1024.0	good	n/a	LOF5	LeftOFCDepthElectrode5	depth	ctx_lh_G_orbital
+LOF6	SEEG	µV	n/a	n/a	1024.0	good	n/a	LOF6	LeftOFCDepthElectrode6	depth	ctx_lh_G_orbital
+LOF7	SEEG	µV	n/a	n/a	1024.0	good	n/a	LOF7	LeftOFCDepthElectrode7	depth	ctx_lh_G_orbital

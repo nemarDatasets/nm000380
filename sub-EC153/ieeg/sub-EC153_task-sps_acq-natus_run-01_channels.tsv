@@ -1,0 +1,9 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	status	status_description	source_name	long_name	electrode_type	region
+OFA1	ECOG	µV	n/a	n/a	8192.0	good	n/a	OFA1	OFCA1	strip	lateralorbitofrontal
+OFA2	ECOG	µV	n/a	n/a	8192.0	good	n/a	OFA2	OFCA2	strip	lateralorbitofrontal
+OFA3	ECOG	µV	n/a	n/a	8192.0	good	n/a	OFA3	OFCA3	strip	parsorbitalis
+OFA4	ECOG	µV	n/a	n/a	8192.0	good	n/a	OFA4	OFCA4	strip	parsorbitalis
+OFB1	ECOG	µV	n/a	n/a	8192.0	good	n/a	OFB1	OFCB1	strip	lateralorbitofrontal
+OFB2	ECOG	µV	n/a	n/a	8192.0	good	n/a	OFB2	OFCB2	strip	lateralorbitofrontal
+OFB3	ECOG	µV	n/a	n/a	8192.0	good	n/a	OFB3	OFCB3	strip	lateralorbitofrontal
+OFB4	ECOG	µV	n/a	n/a	8192.0	good	n/a	OFB4	OFCB4	strip	lateralorbitofrontal

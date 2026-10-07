@@ -1,0 +1,18 @@
+{
+  "TaskName": "stim",
+  "TaskDescription": "Raw iEEG recorded immediately before, during and after continuous 100 Hz direct electrical stimulation",
+  "SamplingFrequency": 3051.7578,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "Manufacturer": "Tucker-Davis Technologies",
+  "iEEGReference": "n/a (not stated in the release)",
+  "RecordingType": "continuous",
+  "RecordingDuration": 126.61686323862268,
+  "ECOGChannelCount": 38,
+  "SEEGChannelCount": 50,
+  "ECGChannelCount": 0,
+  "MiscChannelCount": 6,
+  "ElectricalStimulation": true,
+  "ElectricalStimulationParameters": "continuous 100 Hz stimulation; amplitude not stated in file name; site not stated in file name (from source file name EC142_B30_rawData.mat)"
+}

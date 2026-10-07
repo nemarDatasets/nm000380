@@ -1,0 +1,18 @@
+{
+  "TaskName": "stim",
+  "TaskDescription": "Raw iEEG recorded immediately before, during and after continuous 100 Hz direct electrical stimulation",
+  "SamplingFrequency": 8192.0,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "Manufacturer": "Natus",
+  "iEEGReference": "n/a (not stated in the release)",
+  "RecordingType": "continuous",
+  "RecordingDuration": 277.5140380859375,
+  "ECOGChannelCount": 88,
+  "SEEGChannelCount": 40,
+  "ECGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "ElectricalStimulation": true,
+  "ElectricalStimulationParameters": "continuous 100 Hz stimulation; amplitude not stated in file name; site dorsal cingulate (from source file name EC133_rawDuringContinuous_DorsalCingulate.mat)"
+}

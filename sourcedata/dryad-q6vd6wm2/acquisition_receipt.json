@@ -1,0 +1,15 @@
+{
+ "id": "IEEG037",
+ "source": "Dryad",
+ "doi": "doi:10.7272/Q6VD6WM2",
+ "dryad_version": 2,
+ "dryad_license": "https://spdx.org/licenses/CC0-1.0.html",
+ "dryad_storageSize": 41711117415,
+ "transport": "Zenodo replica https://zenodo.org/records/5076490 (community dryad, same DOI)",
+ "verification": "each file: size + Zenodo md5 + Dryad API digest (sha-256/md5)",
+ "files_ok": 24,
+ "files_failed": 0,
+ "files_on_disk": 24,
+ "bytes_on_disk": 41711117415,
+ "completed_utc": "2026-10-06T22:21:58.859478Z"
+}

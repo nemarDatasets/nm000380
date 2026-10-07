@@ -1,0 +1,65 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	status	status_description	source_name	long_name	electrode_type	region
+L OFC 1	MISC	µV	n/a	n/a	22000.0	good	n/a	L OFC 1	n/a	n/a	n/a
+L OFC 2	MISC	µV	n/a	n/a	22000.0	good	n/a	L OFC 2	n/a	n/a	n/a
+L OFC 3	MISC	µV	n/a	n/a	22000.0	good	n/a	L OFC 3	n/a	n/a	n/a
+L OFC 4	MISC	µV	n/a	n/a	22000.0	good	n/a	L OFC 4	n/a	n/a	n/a
+L OFC 5	MISC	µV	n/a	n/a	22000.0	good	n/a	L OFC 5	n/a	n/a	n/a
+L OFC 6	MISC	µV	n/a	n/a	22000.0	good	n/a	L OFC 6	n/a	n/a	n/a
+L OFC 7	MISC	µV	n/a	n/a	22000.0	good	n/a	L OFC 7	n/a	n/a	n/a
+R OFC 1	MISC	µV	n/a	n/a	22000.0	good	n/a	R OFC 1	n/a	n/a	n/a
+R OFC 2	MISC	µV	n/a	n/a	22000.0	good	n/a	R OFC 2	n/a	n/a	n/a
+R OFC 3	MISC	µV	n/a	n/a	22000.0	good	n/a	R OFC 3	n/a	n/a	n/a
+R OFC 4	MISC	µV	n/a	n/a	22000.0	good	n/a	R OFC 4	n/a	n/a	n/a
+R OFC 5	MISC	µV	n/a	n/a	22000.0	good	n/a	R OFC 5	n/a	n/a	n/a
+R OFC 6	MISC	µV	n/a	n/a	22000.0	good	n/a	R OFC 6	n/a	n/a	n/a
+R OFC 7	MISC	µV	n/a	n/a	22000.0	good	n/a	R OFC 7	n/a	n/a	n/a
+L Dorsal Cingulate 1	MISC	µV	n/a	n/a	22000.0	good	n/a	L Dorsal Cingulate 1	n/a	n/a	n/a
+L Dorsal Cingulate 2	MISC	µV	n/a	n/a	22000.0	good	n/a	L Dorsal Cingulate 2	n/a	n/a	n/a
+L Dorsal Cingulate 3	MISC	µV	n/a	n/a	22000.0	good	n/a	L Dorsal Cingulate 3	n/a	n/a	n/a
+L Dorsal Cingulate 4	MISC	µV	n/a	n/a	22000.0	good	n/a	L Dorsal Cingulate 4	n/a	n/a	n/a
+L Dorsal Cingulate 5	MISC	µV	n/a	n/a	22000.0	good	n/a	L Dorsal Cingulate 5	n/a	n/a	n/a
+L Dorsal Cingulate 6	MISC	µV	n/a	n/a	22000.0	good	n/a	L Dorsal Cingulate 6	n/a	n/a	n/a
+L Ventral Cingulate 1	MISC	µV	n/a	n/a	22000.0	good	n/a	L Ventral Cingulate 1	n/a	n/a	n/a
+L Ventral Cingulate 2	MISC	µV	n/a	n/a	22000.0	good	n/a	L Ventral Cingulate 2	n/a	n/a	n/a
+L Ventral Cingulate 3	MISC	µV	n/a	n/a	22000.0	good	n/a	L Ventral Cingulate 3	n/a	n/a	n/a
+L Ventral Cingulate 4	MISC	µV	n/a	n/a	22000.0	good	n/a	L Ventral Cingulate 4	n/a	n/a	n/a
+L Ventral Cingulate 5	MISC	µV	n/a	n/a	22000.0	good	n/a	L Ventral Cingulate 5	n/a	n/a	n/a
+L Ventral Cingulate 6	MISC	µV	n/a	n/a	22000.0	good	n/a	L Ventral Cingulate 6	n/a	n/a	n/a
+L Insula 1	MISC	µV	n/a	n/a	22000.0	good	n/a	L Insula 1	n/a	n/a	n/a
+L Insula 2	MISC	µV	n/a	n/a	22000.0	good	n/a	L Insula 2	n/a	n/a	n/a
+L Insula 3	MISC	µV	n/a	n/a	22000.0	good	n/a	L Insula 3	n/a	n/a	n/a
+L Insula 4	MISC	µV	n/a	n/a	22000.0	good	n/a	L Insula 4	n/a	n/a	n/a
+L Insula 5	MISC	µV	n/a	n/a	22000.0	good	n/a	L Insula 5	n/a	n/a	n/a
+L Insula 6	MISC	µV	n/a	n/a	22000.0	good	n/a	L Insula 6	n/a	n/a	n/a
+L Amygdala 1	MISC	µV	n/a	n/a	22000.0	good	n/a	L Amygdala 1	n/a	n/a	n/a
+L Amygdala 2	MISC	µV	n/a	n/a	22000.0	good	n/a	L Amygdala 2	n/a	n/a	n/a
+L Amygdala 3	MISC	µV	n/a	n/a	22000.0	good	n/a	L Amygdala 3	n/a	n/a	n/a
+L Amygdala 4	MISC	µV	n/a	n/a	22000.0	good	n/a	L Amygdala 4	n/a	n/a	n/a
+L Amygdala 5	MISC	µV	n/a	n/a	22000.0	good	n/a	L Amygdala 5	n/a	n/a	n/a
+L Amygdala 6	MISC	µV	n/a	n/a	22000.0	good	n/a	L Amygdala 6	n/a	n/a	n/a
+L Hippocampus 1	MISC	µV	n/a	n/a	22000.0	good	n/a	L Hippocampus 1	n/a	n/a	n/a
+L Hippocampus 2	MISC	µV	n/a	n/a	22000.0	good	n/a	L Hippocampus 2	n/a	n/a	n/a
+L Hippocampus 3	MISC	µV	n/a	n/a	22000.0	good	n/a	L Hippocampus 3	n/a	n/a	n/a
+L Hippocampus 4	MISC	µV	n/a	n/a	22000.0	good	n/a	L Hippocampus 4	n/a	n/a	n/a
+L Hippocampus 5	MISC	µV	n/a	n/a	22000.0	good	n/a	L Hippocampus 5	n/a	n/a	n/a
+L Hippocampus 6	MISC	µV	n/a	n/a	22000.0	good	n/a	L Hippocampus 6	n/a	n/a	n/a
+R Ventral Cingulate 1	MISC	µV	n/a	n/a	22000.0	good	n/a	R Ventral Cingulate 1	n/a	n/a	n/a
+R Ventral Cingulate 2	MISC	µV	n/a	n/a	22000.0	good	n/a	R Ventral Cingulate 2	n/a	n/a	n/a
+R Ventral Cingulate 3	MISC	µV	n/a	n/a	22000.0	good	n/a	R Ventral Cingulate 3	n/a	n/a	n/a
+R Ventral Cingulate 4	MISC	µV	n/a	n/a	22000.0	good	n/a	R Ventral Cingulate 4	n/a	n/a	n/a
+R Ventral Cingulate 5	MISC	µV	n/a	n/a	22000.0	good	n/a	R Ventral Cingulate 5	n/a	n/a	n/a
+R Insula 1	MISC	µV	n/a	n/a	22000.0	good	n/a	R Insula 1	n/a	n/a	n/a
+R Insula 2	MISC	µV	n/a	n/a	22000.0	good	n/a	R Insula 2	n/a	n/a	n/a
+R Insula 3	MISC	µV	n/a	n/a	22000.0	good	n/a	R Insula 3	n/a	n/a	n/a
+R Insula 4	MISC	µV	n/a	n/a	22000.0	good	n/a	R Insula 4	n/a	n/a	n/a
+R Insula 5	MISC	µV	n/a	n/a	22000.0	good	n/a	R Insula 5	n/a	n/a	n/a
+R Amygdala 1	MISC	µV	n/a	n/a	22000.0	good	n/a	R Amygdala 1	n/a	n/a	n/a
+R Amygdala 2	MISC	µV	n/a	n/a	22000.0	good	n/a	R Amygdala 2	n/a	n/a	n/a
+R Amygdala 3	MISC	µV	n/a	n/a	22000.0	good	n/a	R Amygdala 3	n/a	n/a	n/a
+R Amygdala 4	MISC	µV	n/a	n/a	22000.0	good	n/a	R Amygdala 4	n/a	n/a	n/a
+R Amygdala 5	MISC	µV	n/a	n/a	22000.0	good	n/a	R Amygdala 5	n/a	n/a	n/a
+R Hippocampus 1	MISC	µV	n/a	n/a	22000.0	good	n/a	R Hippocampus 1	n/a	n/a	n/a
+R Hippocampus 2	MISC	µV	n/a	n/a	22000.0	good	n/a	R Hippocampus 2	n/a	n/a	n/a
+R Hippocampus 3	MISC	µV	n/a	n/a	22000.0	good	n/a	R Hippocampus 3	n/a	n/a	n/a
+R Hippocampus 4	MISC	µV	n/a	n/a	22000.0	good	n/a	R Hippocampus 4	n/a	n/a	n/a
+R Hippocampus 5	MISC	µV	n/a	n/a	22000.0	good	n/a	R Hippocampus 5	n/a	n/a	n/a

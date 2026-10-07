@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "elecmatrix of the release electrode file (clinical_elecs_all.mat / TDT_elecs_all.mat), patient-specific space from the authors' MRI/CT reconstruction (README: 'MRI and CT reconstructions allowed us to assign the activity recorded on specific electrodes to different brain regions'); exact space not stated."
+}
