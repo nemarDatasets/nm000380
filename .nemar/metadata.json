@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "iEEG during direct electrical stimulation of orbitofrontal and other sites (Rao, Sellers et al., 2018): continuous-stimulation and single-pulse recordings",
-  "description": "Intracranial EEG (ECoG grids/strips and depth electrodes) recorded from 17 adults undergoing inpatient seizure-localization monitoring. Recordings were made before, during and after continuous 100 Hz direct electrical stimulation of the lateral orbitofrontal cortex and other sites, as well as during single-pulse electrical stimulation. The dataset supports study of how orbitofrontal stimulation acutely affects mood in individuals with depressive symptoms.",
-  "methods_description": "Data were recorded with Natus clinical, Tucker-Davis Technologies, and NeuroOmega systems. Stimulation amplitude and site are encoded per run. Original float64 MATLAB v7.3 files were converted to BrainVision float32 with no filtering, resampling, or re-referencing. Channel and electrode tables come from the release.",
+  "description": "Intracranial EEG (ECoG grids/strips and depth/stereo-EEG electrodes) from 17 adults undergoing inpatient seizure-localization monitoring. Recordings were made before, during and after continuous 100 Hz direct electrical stimulation of lateral orbitofrontal cortex and other sites, and during single-pulse electrical stimulation. The associated study found that unilateral lateral OFC stimulation acutely improved mood in participants with moderate-to-severe baseline depression symptoms and suppressed low-frequency OFC power. The data are converted to iEEG-BIDS from the original Dryad release.",
+  "methods_description": "Recordings used Natus clinical, Tucker-Davis Technologies, or Alpha Omega NeuroOmega systems at 1-25 kHz. Continuous stimulation was delivered as bipolar biphasic constant-current trains (1 or 6 mA, 100 Hz, 100 us pulse width, 100-200 s) with a sham block, while mood was assessed with the tablet-based Immediate Mood Scaler. Single-pulse stimulation used 10 mA, 1 Hz, 500 us pulses for 20 s.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -41,9 +41,7 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+      "term": "electrocorticography"
     },
     {
       "term": "direct electrical stimulation"
@@ -57,7 +55,9 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D003863"
     },
     {
-      "term": "single-pulse electrical stimulation"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
       "term": "mood"
@@ -110,5 +110,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "67689dcf2cccbef678332c073dfc6d44c84b0771f3597046fa2986f36375425b"
+  "source_hash": "8bc1ed53e3aed6e505181579bf7657f6289e699bb721ed299aab6263de8b8a08"
 }
