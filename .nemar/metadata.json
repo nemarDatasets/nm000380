@@ -1,0 +1,113 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Vikram Rao": {
+      "orcid": "0000-0002-6389-2638",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "identifier": "https://ror.org/043mz5j54",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Kristin Sellers": {
+      "orcid": "0000-0002-0517-2296",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "identifier": "https://ror.org/043mz5j54",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Deanna Wallace": {},
+    "Morgan Lee": {},
+    "Maryam Bijanzadeh": {},
+    "Omid Sani": {},
+    "Yuxiao Yang": {},
+    "Maryam Shanechi": {},
+    "Heather Dawes": {},
+    "Edward Chang": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.7272/Q6VD6WM2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.cub.2018.10.026",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000380",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000380",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Defense Advanced Research Projects Agency (DARPA)",
+      "award_number": "W911NF-14-2-0043"
+    }
+  ],
+  "title": "iEEG during direct electrical stimulation of orbitofrontal and other sites (Rao, Sellers et al., 2018): continuous-stimulation and single-pulse recordings",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "72.77 GB (108 files)"
+  ],
+  "formats": [
+    ".docx",
+    ".eeg",
+    ".json",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".zip"
+  ],
+  "description": "Intracranial EEG (ECoG grids/strips and depth electrodes) recorded from 17 adults undergoing inpatient seizure-localization monitoring. Recordings were made before, during and after continuous 100 Hz direct electrical stimulation of the lateral orbitofrontal cortex and other sites, as well as during single-pulse electrical stimulation. The data accompany a study of the effect of orbitofrontal stimulation on mood in individuals with symptoms of depression, and are converted to iEEG-BIDS.",
+  "methods_description": "Recordings were acquired with Natus clinical, Tucker-Davis Technologies, or NeuroOmega systems during continuous 100 Hz stimulation (task-stim) and single-pulse stimulation (task-sps). Stimulation amplitude and site were derived from file names. Data were converted from MATLAB v7.3 to BrainVision float32 format without filtering, resampling, or re-referencing.",
+  "keywords": [
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "direct electrical stimulation"
+    },
+    {
+      "term": "orbitofrontal cortex"
+    },
+    {
+      "term": "mood"
+    },
+    {
+      "term": "Depression",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003863"
+    },
+    {
+      "term": "single-pulse electrical stimulation"
+    }
+  ],
+  "source_hash": "007ffae2dbd95450c8c0c4af713f31bf52c81bca27b7cd92769bf1aec7b12a9d"
+}
