@@ -15,10 +15,10 @@
     "Heather Dawes",
     "Edward Chang"
   ],
-  "Acknowledgements": "Data released by the authors on Dryad (doi:10.7272/Q6VD6WM2). Converted to iEEG-BIDS for NEMAR.",
+  "Acknowledgements": "Data released by the authors on Dryad (doi:10.7272/Q6VD6WM2). Converted to iEEG-BIDS for NEMAR. Article acknowledgments (Rao et al. 2018): 'The authors are grateful to Prashanth Selvaraj, Erin L. Rich, Vikaas S. Sohal, Lowry A. Kirkby, and members of the Chang Lab for helpful discussions during the course of this study.'",
   "HowToAcknowledge": "Please cite Rao VR, Sellers KK, Wallace DL, Lee MB, Bijanzadeh M, Sani OG, Yang Y, Shanechi MM, Dawes HE, Chang EF (2018). Direct electrical stimulation of lateral orbitofrontal cortex acutely improves mood in individuals with symptoms of depression. Current Biology 28(24):3893-3902. doi:10.1016/j.cub.2018.10.026; and the dataset doi:10.7272/Q6VD6WM2.",
   "Funding": [
-    "Defense Advanced Research Projects Agency (DARPA) W911NF-14-2-0043"
+    "Defense Advanced Research Projects Agency (DARPA) W911NF-14-2-0043 (Cooperative Agreement Number W911NF-14-2-0043, issued by the Army Research Office contracting office in support of DARPA's SUBNETS program; Rao et al. 2018 Acknowledgments)"
   ],
   "EthicsApprovals": [
     "The experimental protocol was approved by the Committee for Human Research at the University of California, San Francisco. Written informed consent was obtained from all subjects."
@@ -26,7 +26,8 @@
   "ReferencesAndLinks": [
     "https://doi.org/10.1016/j.cub.2018.10.026",
     "https://doi.org/10.7272/Q6VD6WM2",
-    "https://zenodo.org/records/5076490"
+    "https://zenodo.org/records/5076490",
+    "https://www.cell.com/current-biology/fulltext/S0960-9822(18)31355-1"
   ],
   "Keywords": [
     "direct electrical stimulation",
@@ -35,7 +36,10 @@
     "depression",
     "ECoG",
     "SEEG",
-    "single-pulse electrical stimulation"
+    "single-pulse electrical stimulation",
+    "epilepsy",
+    "Immediate Mood Scaler",
+    "Beck Depression Inventory"
   ],
   "SourceDatasets": [
     {

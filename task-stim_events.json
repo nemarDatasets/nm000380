@@ -1,5 +1,8 @@
 {
   "trial_type": {
-    "Description": "One row spanning the whole file; stimulation timing is not annotated in the release (the authors' scripts detect stimulation artifacts from the signal)."
+    "Description": "One row spanning the whole file; stimulation timing is not annotated in the release (the authors' scripts detect stimulation artifacts from the signal).",
+    "Levels": {
+      "recording_stim": "one row spanning the whole recording of the continuous-stimulation file (stimulation onset/offset not annotated in the release)"
+    }
   }
 }

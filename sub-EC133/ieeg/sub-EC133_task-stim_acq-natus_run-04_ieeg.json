@@ -1,6 +1,7 @@
 {
   "TaskName": "stim",
   "TaskDescription": "Raw iEEG recorded immediately before, during and after continuous 100 Hz direct electrical stimulation",
+  "Instructions": "Subjects were told that various brain regions would be tested but were blind to the stimulation parameters, the region tested and whether stimulation was active; they were told they would be asked about their mood but not to expect mood changes. About 30 s after stimulation onset they were prompted with neutral open-ended questions to describe their current mood (e.g., 'How would you describe your mood right now?'; 30 s allotted), then answered the Immediate Mood Scaler on a tablet (1-2 min); stimulation ended when the IMS was completed and the next block started 3-5 min later (Rao et al. 2018, STAR Methods, Mood Assessment during Stimulation).",
   "SamplingFrequency": 8192.0,
   "PowerLineFrequency": 60,
   "SoftwareFilters": "n/a",
@@ -14,5 +15,7 @@
   "ECGChannelCount": 0,
   "MiscChannelCount": 0,
   "ElectricalStimulation": true,
-  "ElectricalStimulationParameters": "continuous 100 Hz stimulation; amplitude not stated in file name; site insula (from source file name EC133_rawDuringContinuous_Insula.mat)"
+  "ElectricalStimulationParameters": "continuous 100 Hz stimulation; amplitude not stated in file name; site insula (from source file name EC133_rawDuringContinuous_Insula.mat). Protocol (Rao et al. 2018, STAR Methods): bipolar stimulation of adjacent electrodes with the manually operated Nicolet Cortical Stimulator (Natus Medical), biphasic constant-current pulse trains; continuous stimulation of OFC and other regions at 1 or 6 mA, 100 Hz, 100 us pulse width, 100-200 s duration; a sham (0 mA) block at the beginning of each session.",
+  "ElectrodeManufacturer": "AdTech (Racine, WI) or Integra (Plainsboro, NJ); the manufacturer per subject is not stated (Rao et al. 2018, STAR Methods)",
+  "iEEGPlacementScheme": "Clinically guided implant for seizure localization (Rao et al. 2018). Table S1: hemisphere left; subdural grids/strips with depth electrodes; coverage LFC, AOF, POF, LTC, STC, DC, INS, AMY, HIP (LFC lateral frontal, AOF/POF anterior/posterior orbitofrontal, LTC lateral temporal, STC subtemporal, DC dorsal cingulate, SCC subgenual cingulate, INS insula, AMY amygdala, HIP hippocampus)."
 }

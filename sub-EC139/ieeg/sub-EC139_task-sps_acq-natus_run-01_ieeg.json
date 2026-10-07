@@ -14,5 +14,7 @@
   "ECGChannelCount": 0,
   "MiscChannelCount": 0,
   "ElectricalStimulation": true,
-  "ElectricalStimulationParameters": "single-pulse stimulation; amplitude not stated in file name; site lateral OFC (README: no location in the file name = lateral OFC) (from source file name EC139_rawData_SPS.mat)"
+  "ElectricalStimulationParameters": "single-pulse stimulation; amplitude not stated in file name; site lateral OFC (README: no location in the file name = lateral OFC) (from source file name EC139_rawData_SPS.mat). Protocol (Rao et al. 2018, STAR Methods): bipolar single-pulse stimulation (SPS) with the Nicolet Cortical Stimulator (Natus Medical), 10 mA, 1 Hz, 500 us pulse width, 20 s duration, administered in some subjects before and after continuous OFC stimulation.",
+  "ElectrodeManufacturer": "AdTech (Racine, WI) or Integra (Plainsboro, NJ); the manufacturer per subject is not stated (Rao et al. 2018, STAR Methods)",
+  "iEEGPlacementScheme": "Clinically guided implant for seizure localization (Rao et al. 2018). Table S1: hemisphere left; subdural grids/strips with depth electrodes; coverage LFC, AOF, LTC, STC, DC, INS, AMY, HIP (LFC lateral frontal, AOF/POF anterior/posterior orbitofrontal, LTC lateral temporal, STC subtemporal, DC dorsal cingulate, SCC subgenual cingulate, INS insula, AMY amygdala, HIP hippocampus)."
 }

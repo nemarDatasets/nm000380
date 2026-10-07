@@ -1,5 +1,8 @@
 {
   "trial_type": {
-    "Description": "One row spanning the whole file; pulse times are not annotated in the release."
+    "Description": "One row spanning the whole file; pulse times are not annotated in the release.",
+    "Levels": {
+      "recording_sps": "one row spanning the whole single-pulse-stimulation recording (pulse times not annotated in the release)"
+    }
   }
 }

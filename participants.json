@@ -1,0 +1,61 @@
+{
+  "participant_id": {
+    "Description": "BIDS participant label: 'sub-' + the de-identified subject code EC## used in the Dryad release (doi:10.7272/Q6VD6WM2) and in Rao et al. (2018). The paper notes the EC numbers are non-consecutive because they are assigned to all intracranial patients in the senior author's clinical practice."
+  },
+  "age": {
+    "Description": "Age in years as listed in Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label (time point not stated beyond 'Age'). Not given in the Dryad release itself. Cohort (paper, n = 25): ages 20-60.",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Sex, from the 'Gender' column (M / F) of Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label. Not given in the Dryad release itself. Cohort (paper, n = 25): 14 males.",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "handedness": {
+    "Description": "Handedness: not reported in the Dryad release nor in Rao et al. (2018) or its supplement (n/a for all participants)."
+  },
+  "hemisphere": {
+    "Description": "Hemisphere of electrode coverage, from the 'Hemisphere' column of Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label.",
+    "Levels": {
+      "L": "left",
+      "R": "right",
+      "B": "bilateral"
+    }
+  },
+  "electrode_coverage": {
+    "Description": "Comma-separated list of the regions marked with X under 'Electrode coverage' in Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label. Abbreviations as defined in the table legend. Codes: LFC = lateral frontal cortex; AOF = anterior orbitofrontal cortex; POF = posterior orbitofrontal cortex; LTC = lateral temporal cortex; STC = subtemporal cortex; DC = dorsal cingulate cortex; SCC = subgenual cingulate cortex; INS = insular cortex; AMY = amygdala; HIP = hippocampus."
+  },
+  "electrode_type": {
+    "Description": "'Electrode type' column of Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label. Paper (STAR Methods): subdural grid, strip and depth electrodes (AdTech, Racine, WI, or Integra, Plainsboro, NJ).",
+    "Levels": {
+      "grids_strips_depths": "grids / strips / depths (subdural electrocorticography with depth electrodes)",
+      "stereo_eeg": "stereo-EEG (depth electrodes only)"
+    }
+  },
+  "seizure_onset_zone": {
+    "Description": "Seizure onset zone(s) (SOZ column) as written in Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label; n/a where the table gives N/A."
+  },
+  "surgical_pathology": {
+    "Description": "'Surgical Pathology' column of Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label (HS: hippocampal sclerosis; FCD 2A/2B: focal cortical dysplasia type IIa/IIb); n/a where the table gives N/A."
+  },
+  "bdi": {
+    "Description": "Beck Depression Inventory II (BDI) score from neuropsychological testing before electrode implantation, from Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label; the same 25 values appear, in Table S1 row order, in the BDI vector of the release file Behavior/KS_TraitScores.mat. n/a where not available (the paper used PHQ-9 with a cutoff of 10 for trait categorization in the two subjects without BDI).",
+    "Units": "score"
+  },
+  "trait_depression": {
+    "Description": "'Trait Depression' column of Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label: baseline mood trait from BDI binned into minimal-mild (N) and moderate-severe (Y) using clinically established cutoffs (PHQ-9 >= 10 where BDI was unavailable); matches, in Table S1 row order, the 'Trait' vector (1 = Y, 0 = N) of the release file Behavior/KS_TraitScores.mat.",
+    "Levels": {
+      "Y": "moderate-to-severe depression symptoms (trait depression)",
+      "N": "minimal-to-mild depression symptoms"
+    }
+  },
+  "n_ims": {
+    "Description": "Number of Immediate Mood Scaler (IMS) data points ('# IMS') collected by the subject, from Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label. The release file Behavior/KS_NumberIMSPerDay.xlsx gives the per-day counts.",
+    "Units": "count"
+  },
+  "ims_version": {
+    "Description": "Version of the Immediate Mood Scaler used ('IMS version' column of Rao et al. (2018) Current Biology 28(24):3893-3902.e4, doi:10.1016/j.cub.2018.10.026, Supplemental Document S1 Table S1 ('Subject characteristics'), row with the same EC identifier as the participant label); n/a where the table gives N/A (EC105: verbal report only, monolingual Spanish speaker, no Spanish IMS available at the time)."
+  }
+}

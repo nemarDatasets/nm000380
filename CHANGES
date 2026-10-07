@@ -1,2 +1,9 @@
+1.0.1 2026-10-07
+  - 2026-10-07 metadata enrichment: participants.tsv (age, sex, hemisphere, electrode coverage/type, seizure onset
+    zone, surgical pathology, BDI, trait depression, IMS count/version from Rao et al. 2018 Table S1, keyed by EC ID) and
+    new participants.json; ieeg.json (Instructions, ManufacturersModelName, ElectrodeManufacturer,
+    iEEGPlacementScheme, stimulation protocol); events.json Levels; dataset_description (Funding, Acknowledgements,
+    ReferencesAndLinks, Keywords); README restructured.
+
 1.0.0 2026-10-06
   - Initial iEEG-BIDS conversion of doi:10.7272/Q6VD6WM2 (stimulation + SPS recordings) for NEMAR.

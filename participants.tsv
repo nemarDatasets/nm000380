@@ -1,18 +1,18 @@
-participant_id	age	sex	handedness
-sub-EC105	n/a	n/a	n/a
-sub-EC108	n/a	n/a	n/a
-sub-EC122	n/a	n/a	n/a
-sub-EC125	n/a	n/a	n/a
-sub-EC129	n/a	n/a	n/a
-sub-EC133	n/a	n/a	n/a
-sub-EC137	n/a	n/a	n/a
-sub-EC139	n/a	n/a	n/a
-sub-EC142	n/a	n/a	n/a
-sub-EC150	n/a	n/a	n/a
-sub-EC151	n/a	n/a	n/a
-sub-EC152	n/a	n/a	n/a
-sub-EC153	n/a	n/a	n/a
-sub-EC155	n/a	n/a	n/a
-sub-EC162	n/a	n/a	n/a
-sub-EC175	n/a	n/a	n/a
-sub-EC99	n/a	n/a	n/a
+participant_id	age	sex	handedness	hemisphere	electrode_coverage	electrode_type	seizure_onset_zone	surgical_pathology	bdi	trait_depression	n_ims	ims_version
+sub-EC105	45	F	n/a	R	LFC,AOF,POF,LTC,STC,DC,INS,AMY,HIP	grids_strips_depths	Anterior lateral temporal	Gliosis	26	Y	0	N/A (verbal report only)
+sub-EC108	20	F	n/a	L	LFC,AOF,POF,LTC,STC,DC,INS,AMY,HIP	grids_strips_depths	Mesial temporal	FCD 2A	n/a	Y	16	24-question
+sub-EC122	29	M	n/a	L	LFC,AOF,LTC,STC,INS,AMY,HIP	grids_strips_depths	Mesial and basal temporal	Gliosis	6	N	15	24-question
+sub-EC125	35	M	n/a	R	LFC,AOF,POF,LTC,STC,DC,SCC,INS,AMY,HIP	grids_strips_depths	Mesial temporal	HS	28	Y	18	24-question
+sub-EC129	33	F	n/a	R	LFC,AOF,POF,LTC,STC,DC,SCC,INS,AMY,HIP	grids_strips_depths	Posterior superior frontal gyrus	Gliosis	8	N	12	24-question
+sub-EC133	36	M	n/a	L	LFC,AOF,POF,LTC,STC,DC,INS,AMY,HIP	grids_strips_depths	Mesial temporal	Gliosis	14	N	11	24-question
+sub-EC137	20	M	n/a	R	LFC,AOF,POF,LTC,STC,DC,SCC,INS,AMY,HIP	grids_strips_depths	n/a	n/a	4	N	24	24-question
+sub-EC139	45	M	n/a	L	LFC,AOF,LTC,STC,DC,INS,AMY,HIP	grids_strips_depths	Mesial and lateral temporal	HS	32	Y	3	24-question
+sub-EC142	22	M	n/a	R	LFC,AOF,POF,LTC,STC,DC,SCC,INS,AMY,HIP	grids_strips_depths	Supramarginal gyrus	FCD 2A	20	Y	13	24-question
+sub-EC150	40	F	n/a	B	AOF,DC,SCC,INS,AMY,HIP	stereo_eeg	Bilateral mesial temporal	n/a	25	Y	30	Sham: 23-question; Active: 24-question
+sub-EC151	32	F	n/a	L	LFC,AOF,POF,LTC,INS	stereo_eeg	Insula	Encephalitis	35	Y	5	24-question
+sub-EC152	40	F	n/a	R	LFC,AOF,POF,LTC,AMY,HIP	grids_strips_depths	Right motor strip	n/a	6	N	12	24-question
+sub-EC153	36	M	n/a	R	LFC,AOF,POF,LTC,STC,DC,SCC,INS,AMY,HIP	grids_strips_depths	Mesial temporal	HS	33	Y	3	24-question
+sub-EC155	36	M	n/a	L	LFC,AOF,LTC,STC,DC,INS,AMY,HIP	grids_strips_depths	Lateral temporal	n/a	7	N	3	24-question
+sub-EC162	42	M	n/a	L	LFC,AOF,LTC,DC,INS,AMY,HIP	stereo_eeg	Left frontal	Gliosis, hemosiderin	4	N	24	24-question
+sub-EC175	38	M	n/a	L	LFC,AOF,POF,LTC,STC,DC,INS,AMY,HIP	grids_strips_depths	Mesial temporal	FCD 2A	21	Y	6	24-question
+sub-EC99	20	F	n/a	B	AOF,DC,INS,HIP	stereo_eeg	Right parietal calcified lesion	FCD 2B	25	Y	6	24-question
