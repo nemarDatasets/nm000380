@@ -20,6 +20,9 @@
   "Funding": [
     "Defense Advanced Research Projects Agency (DARPA) W911NF-14-2-0043"
   ],
+  "EthicsApprovals": [
+    "The experimental protocol was approved by the Committee for Human Research at the University of California, San Francisco. Written informed consent was obtained from all subjects."
+  ],
   "ReferencesAndLinks": [
     "https://doi.org/10.1016/j.cub.2018.10.026",
     "https://doi.org/10.7272/Q6VD6WM2",

@@ -39,3 +39,9 @@ lateral orbitofrontal cortex and other sites (task-stim), and during single-puls
   `ECoG.time` fields contain absolute recording dates and times. Behaviour tables (`Behavior.zip`: mood scores,
   BDI/trait scores, speech rate) and the authors' MATLAB scripts are in sourcedata.
 - Age, sex and handedness are not in the release (n/a).
+
+## Ethics approval
+
+Verbatim from Rao VR, Sellers KK, Wallace DL, Lee MB, Bijanzadeh M, Sani OG, Yang Y, Shanechi MM, Dawes HE, Chang EF (2018). Direct Electrical Stimulation of Lateral Orbitofrontal Cortex Acutely Improves Mood in Individuals with Symptoms of Depression. Current Biology 28(24):3893-3902.e4. https://doi.org/10.1016/j.cub.2018.10.026, STAR Methods, "Experimental Model and Subject Details":
+
+> The experimental protocol was approved by the Committee for Human Research at the University of California, San Francisco. Written informed consent was obtained from all subjects.
