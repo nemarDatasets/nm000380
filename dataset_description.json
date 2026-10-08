@@ -53,5 +53,7 @@
       "Name": "b2dryad_convert037.py",
       "Description": "MATLAB v7.3 raw iEEG -> BrainVision float32 (float64 rounded to float32), channel/electrode tables from the release. Code in code/."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000380",
+  "Version": "1.0.0"
 }
