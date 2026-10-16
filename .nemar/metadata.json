@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "iEEG during direct electrical stimulation of orbitofrontal and other sites (Rao, Sellers et al., 2018): continuous-stimulation and single-pulse recordings",
-  "description": "Intracranial EEG (ECoG grids/strips and stereo-EEG depth electrodes) from 17 adults undergoing inpatient seizure monitoring, recorded before, during and after continuous 100 Hz direct electrical stimulation of the lateral orbitofrontal cortex and other sites, as well as during single-pulse electrical stimulation. The accompanying study reported that unilateral lateral OFC stimulation acutely improved mood in participants with moderate-to-severe baseline depression symptoms and suppressed low-frequency OFC power. The dataset is converted to iEEG-BIDS from the original Dryad release.",
-  "methods_description": "Recordings used Natus clinical, Tucker-Davis Technologies, or Alpha Omega NeuroOmega systems at 1-25 kHz. Bipolar continuous stimulation (1 or 6 mA, 100 Hz, 100 us pulse width, 100-200 s) was delivered with a Nicolet Cortical Stimulator, including a sham block. Single-pulse stimulation used 10 mA, 1 Hz, 500 us pulses. Mood was assessed with the tablet-based Immediate Mood Scaler and verbal reports. Electrodes were localized by co-registering pre-operative MRI with post-operative CT.",
+  "title": "Rao-2018-direct-10.1016/j.cub.2018.10.026",
+  "description": "Intracranial EEG (ECoG grids/strips and stereo-EEG depth electrodes) from 17 adults undergoing inpatient seizure monitoring, recorded before, during and after continuous 100 Hz direct electrical stimulation of the lateral orbitofrontal cortex and other sites, as well as during single-pulse stimulation. Mood state was assessed with the Immediate Mood Scaler alongside baseline depression measures. The original study found that unilateral lateral OFC stimulation acutely improved mood in participants with moderate-to-severe baseline depression symptoms and suppressed low-frequency OFC power.",
+  "methods_description": "Recordings were acquired with Natus clinical, Tucker-Davis Technologies, or Alpha Omega NeuroOmega systems at sampling rates of 1-25 kHz. Bipolar stimulation of adjacent electrodes used biphasic constant-current 100 Hz trains (1 or 6 mA) with a sham block, followed by tablet-based mood scale assessments. Single-pulse stimulation (10 mA, 1 Hz) was also delivered. Raw data were converted to iEEG-BIDS with BrainVision float32 storage.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -41,14 +41,10 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+      "term": "electrocorticography"
     },
     {
-      "term": "Electric Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004558"
+      "term": "direct electrical stimulation"
     },
     {
       "term": "orbitofrontal cortex"
@@ -62,7 +58,9 @@
       "term": "mood"
     },
     {
-      "term": "single-pulse electrical stimulation"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
@@ -113,5 +111,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "7f67a44efe7cd7b9256d7a6fe90fd113928862241903446ac04d33c47c7d0eaa"
+  "source_hash": "db8f595600844929fc1351391cabff7977f4b71563782f8e9969326eaa0f7f42"
 }
