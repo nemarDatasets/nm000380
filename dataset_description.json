@@ -1,5 +1,5 @@
 {
-  "Name": "Rao-2018-direct-10.1016/j.cub.2018.10.026",
+  "Name": "iEEG during direct electrical stimulation of orbitofrontal and other sites (Rao, Sellers et al., 2018): continuous-stimulation and single-pulse recordings",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC-BY-4.0",
@@ -55,5 +55,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000380",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
