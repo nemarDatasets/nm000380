@@ -1,1 +1,80 @@
-/annex/objects/SHA256E-s2019--696c7be0e4882ee4eadf46b25c942f5efc5f2d5242f4510984c14d37dc15a11f.vhdr
+Brain Vision Data Exchange Header File Version 1.0
+; Written by b2dryad_convert037.py from iEEG_DuringStimulation_EC152.zip::iEEG_DuringStimulation_EC152/EC152_NO_DuringContinuous_1mA.mat (float64 rounded to float32)
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-EC152_task-stim_acq-neuroomega_run-01_ieeg.eeg
+MarkerFile=sub-EC152_task-stim_acq-neuroomega_run-01_ieeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=64
+SamplingInterval=45.45454545454545
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=OFC1,,1,µV
+Ch2=OFC2,,1,µV
+Ch3=OFC3,,1,µV
+Ch4=OFC4,,1,µV
+Ch5=OFC5,,1,µV
+Ch6=OFC6,,1,µV
+Ch7=OFC7,,1,µV
+Ch8=OFC8,,1,µV
+Ch9=Amygdala 1,,1,µV
+Ch10=Amygdala 2,,1,µV
+Ch11=Amygdala 3,,1,µV
+Ch12=Amygdala 4,,1,µV
+Ch13=Hippocampus 1,,1,µV
+Ch14=Hippocampus 2,,1,µV
+Ch15=Hippocampus 3,,1,µV
+Ch16=Hippocampus 4,,1,µV
+Ch17=Hippocampus 5,,1,µV
+Ch18=Hippocampus 6,,1,µV
+Ch19=Hippocampus 7,,1,µV
+Ch20=Hippocampus 8,,1,µV
+Ch21=Hippocampus 9,,1,µV
+Ch22=Hippocampus 10,,1,µV
+Ch23=frontal A 1,,1,µV
+Ch24=frontal A 2,,1,µV
+Ch25=frontal A 3,,1,µV
+Ch26=frontal A 4,,1,µV
+Ch27=frontal A 5,,1,µV
+Ch28=frontal A 6,,1,µV
+Ch29=frontal B 1,,1,µV
+Ch30=frontal B 2,,1,µV
+Ch31=frontal B 3,,1,µV
+Ch32=frontal B 4,,1,µV
+Ch33=frontal B 5,,1,µV
+Ch34=frontal B 6,,1,µV
+Ch35=frontal C 1,,1,µV
+Ch36=frontal C 2,,1,µV
+Ch37=frontal C 3,,1,µV
+Ch38=frontal C 4,,1,µV
+Ch39=frontal C 5,,1,µV
+Ch40=frontal C 6,,1,µV
+Ch41=Parietal F 1,,1,µV
+Ch42=Parietal F 2,,1,µV
+Ch43=Parietal F 3,,1,µV
+Ch44=Parietal F 4,,1,µV
+Ch45=Parietal F 5,,1,µV
+Ch46=Parietal F 6,,1,µV
+Ch47=Perietal  E 1,,1,µV
+Ch48=Perietal  E 2,,1,µV
+Ch49=Perietal  E 3,,1,µV
+Ch50=Perietal  E 4,,1,µV
+Ch51=Perietal  E 5,,1,µV
+Ch52=Perietal  E 6,,1,µV
+Ch53=Perietal D 1,,1,µV
+Ch54=Perietal D 2,,1,µV
+Ch55=Perietal D 3,,1,µV
+Ch56=Perietal D 4,,1,µV
+Ch57=Perietal D 5,,1,µV
+Ch58=Perietal D 6,,1,µV
+Ch59=Empty,,1,µV
+Ch60=Empty_2,,1,µV
+Ch61=Empty_3,,1,µV
+Ch62=Empty_4,,1,µV
+Ch63=Empty_5,,1,µV
+Ch64=Empty_6,,1,µV

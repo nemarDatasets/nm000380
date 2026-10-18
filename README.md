@@ -116,3 +116,7 @@ Depression. Current Biology 28(24):3893-3902.e4. doi:10.1016/j.cub.2018.10.026. 
 Verbatim from Rao VR, Sellers KK, Wallace DL, Lee MB, Bijanzadeh M, Sani OG, Yang Y, Shanechi MM, Dawes HE, Chang EF (2018). Direct Electrical Stimulation of Lateral Orbitofrontal Cortex Acutely Improves Mood in Individuals with Symptoms of Depression. Current Biology 28(24):3893-3902.e4. https://doi.org/10.1016/j.cub.2018.10.026, STAR Methods, "Experimental Model and Subject Details":
 
 > The experimental protocol was approved by the Committee for Human Research at the University of California, San Francisco. Written informed consent was obtained from all subjects.
+
+## Channel name with a trailing space (fixed 18 Oct 2026)
+
+In `sub-EC152_task-stim_acq-neuroomega_run-01_ieeg.vhdr` ('frontal A 1 ') the BrainVision header named a channel with a trailing space. MNE keeps the header name as is, while MNE-BIDS strips the channels.tsv value, so `read_raw_bids` stopped with 'Channel mismatch'. The space was removed from the .vhdr channel name and from channels.tsv (the name now equals channels.tsv, electrodes.tsv and the other runs). The .eeg data file is unchanged; the corrected .vhdr is stored as a plain git file.

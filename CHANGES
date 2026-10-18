@@ -1,3 +1,8 @@
+1.0.3 2026-10-18
+  - .vhdr + channels.tsv: trailing space removed from a channel name (`sub-EC152_task-stim_acq-neuroomega_run-01_ieeg.vhdr` ('frontal A 1 ')); mne_bids read_raw_bids raised 'Channel mismatch'. The .vhdr is now a plain git file; .eeg unchanged.
+  - README: section 'Channel name with a trailing space'.
+  - dataset_description.json: Version 1.0.2 -> 1.0.3.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
