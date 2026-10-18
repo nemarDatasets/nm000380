@@ -120,3 +120,15 @@ Verbatim from Rao VR, Sellers KK, Wallace DL, Lee MB, Bijanzadeh M, Sani OG, Yan
 ## Channel name with a trailing space (fixed 18 Oct 2026)
 
 In `sub-EC152_task-stim_acq-neuroomega_run-01_ieeg.vhdr` ('frontal A 1 ') the BrainVision header named a channel with a trailing space. MNE keeps the header name as is, while MNE-BIDS strips the channels.tsv value, so `read_raw_bids` stopped with 'Channel mismatch'. The space was removed from the .vhdr channel name and from channels.tsv (the name now equals channels.tsv, electrodes.tsv and the other runs). The .eeg data file is unchanged; the corrected .vhdr is stored as a plain git file.
+
+## Line noise in the stimulation runs (checked 19 Oct 2026)
+
+`PowerLineFrequency` is 60 Hz for every run (UCSF, USA), and the data confirm it. Some stimulation and single-pulse runs
+also show a line near 50 Hz (for example sub-EC108 and sub-EC162 task-stim run-01, where an automated check found 50 Hz
+stronger than 60 Hz over the run). This component is a stimulation artefact, not mains: in spectra of 42 runs (whole file
+and 10-s windows; median over up to 48 contacts) it appears in 21 runs, mostly with lines at 150 and 250 Hz (both above 10 dB in 14 runs), and
+only in the windows where the 100-Hz stimulation line is present (correlation of the 10-s line strengths 0.38-1.00, above
+0.9 in 16 runs); in the windows without stimulation its median strength is 0.5-2.5 dB, while the 60-Hz line is present in
+those windows in all 42 runs (median 10-61 dB above the neighbouring bands; whole-run peak at 60.0 Hz in 38 runs). In sub-EC162 run-01, for
+example, the 60-Hz line is 26-27 dB in the first 20 s and the last 10 s (no stimulation) and 1-3 dB during it, when the
+50-Hz line is 18-21 dB and the 100-Hz line 29-32 dB. No metadata were changed.
