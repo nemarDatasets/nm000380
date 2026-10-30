@@ -80,7 +80,11 @@ subjects with moderate-to-severe baseline depression symptoms and suppressed low
 - Units are not stated in the release. Natus and NeuroOmega values are stored as µV (magnitudes of tens to
   thousands; 34843.74 is a recurring saturation value in Natus files); TDT values (|x| < 0.2) are stored as V.
 - Stimulation and pulse times are not annotated in the release, and `events.tsv` has one row per run. The stimulation
-  artefact is visible in the signals, but no artefact-derived onsets are added here.
+  artefact is visible in the signals; `events.tsv` stays as released. Artefact-derived onsets, clearly labelled as
+  NOT from a source, are in a separate derivative, `derivatives/stimartefact/`: one 100 Hz block in 39 of the 40
+  continuous-stimulation runs (sub-EC108 run-01, 1 mA, has a weak artefact and is split into 4 segments) and 280 single
+  pulses in 14 trains of 20 in the 5 single-pulse runs. Method, thresholds and counts are in its README; code in
+  `code/fix-20261030_stimartefact/`.
 - Files not converted:
   - iEEG_DuringStimulation_EC155.zip::iEEG_DuringStimulation_EC155/EC155_NO_1mA.mat: not readable as MATLAB v7.3/HDF5 (OSError('Unable to synchronously open file (file signature not found)'))
 - The release's `iEEG_NaturalBehavior.zip` (OFC ECoG segments around mood self-reports) is NOT included: its

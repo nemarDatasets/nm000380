@@ -1,0 +1,730 @@
+{
+ "sub-EC105_task-stim_acq-natus_run-01": {
+  "sfreq": 16384.0,
+  "n_contacts": 80,
+  "duration_s": 242.153,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "29.521057",
+    "100.740356",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.11616166681051254,
+  "comb_p95": 1.934089183807373
+ },
+ "sub-EC105_task-stim_acq-natus_run-02": {
+  "sfreq": 16384.0,
+  "n_contacts": 80,
+  "duration_s": 259.569,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "27.871033",
+    "104.726074",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.1648772656917572,
+  "comb_p95": 1.38693368434906
+ },
+ "sub-EC105_task-stim_acq-natus_run-03": {
+  "sfreq": 16384.0,
+  "n_contacts": 80,
+  "duration_s": 245.12,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "23.359070",
+    "105.187866",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.1956847459077835,
+  "comb_p95": 2.968813896179199
+ },
+ "sub-EC105_task-stim_acq-natus_run-04": {
+  "sfreq": 16384.0,
+  "n_contacts": 80,
+  "duration_s": 221.065,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "31.105164",
+    "109.886536",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 1.7532119750976562,
+  "comb_p95": 3.619342803955078
+ },
+ "sub-EC105_task-stim_acq-natus_run-05": {
+  "sfreq": 16384.0,
+  "n_contacts": 78,
+  "duration_s": 165.089,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "21.842834",
+    "104.404724",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.653390407562256,
+  "comb_p95": 3.1723272800445557
+ },
+ "sub-EC108_task-stim_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 124,
+  "duration_s": 397.628,
+  "n_blocks": 4,
+  "blocks": [
+   [
+    "57.777344",
+    "92.138794",
+    "spectral"
+   ],
+   [
+    "152.305664",
+    "28.192017",
+    "pulse_refined"
+   ],
+   [
+    "182.786743",
+    "47.508789",
+    "pulse_refined"
+   ],
+   [
+    "237.172852",
+    "42.177490",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.19397751986980438,
+  "comb_p95": 0.8314884305000305
+ },
+ "sub-EC108_task-stim_acq-natus_run-02": {
+  "sfreq": 8192.0,
+  "n_contacts": 124,
+  "duration_s": 577.992,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "65.670532",
+    "451.899780",
+    "spectral"
+   ]
+  ],
+  "comb_p50": 1.9539645910263062,
+  "comb_p95": 2.280369520187378
+ },
+ "sub-EC122_task-stim_acq-natus_run-01": {
+  "sfreq": 16384.0,
+  "n_contacts": 56,
+  "duration_s": 250.0,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "27.159241",
+    "113.781311",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.11102692782878876,
+  "comb_p95": 3.7521705627441406
+ },
+ "sub-EC125_task-stim_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 82,
+  "duration_s": 463.0,
+  "contact_types_used": "MISC",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "138.462158",
+    "239.457031",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 3.698301076889038,
+  "comb_p95": 4.176922798156738
+ },
+ "sub-EC125_task-stim_acq-natus_run-02": {
+  "sfreq": 8192.0,
+  "n_contacts": 82,
+  "duration_s": 458.125,
+  "contact_types_used": "MISC",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "25.624512",
+    "234.507446",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.3484392166137695,
+  "comb_p95": 4.516430377960205
+ },
+ "sub-EC125_task-stim_acq-natus_run-03": {
+  "sfreq": 8192.0,
+  "n_contacts": 82,
+  "duration_s": 249.92,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "37.694702",
+    "190.925171",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.4501121044158936,
+  "comb_p95": 2.5789079666137695
+ },
+ "sub-EC129_task-stim_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 90,
+  "duration_s": 428.651,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "29.057861",
+    "276.305542",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.5832924842834473,
+  "comb_p95": 2.724903106689453
+ },
+ "sub-EC129_task-stim_acq-natus_run-02": {
+  "sfreq": 8192.0,
+  "n_contacts": 90,
+  "duration_s": 350.512,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "30.474243",
+    "213.566772",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.5873606204986572,
+  "comb_p95": 2.7564430236816406
+ },
+ "sub-EC129_task-stim_acq-natus_run-03": {
+  "sfreq": 8192.0,
+  "n_contacts": 90,
+  "duration_s": 301.27,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "44.183228",
+    "211.006714",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.8232412338256836,
+  "comb_p95": 3.028076648712158
+ },
+ "sub-EC133_task-stim_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 128,
+  "duration_s": 271.88,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "24.068481",
+    "187.966064",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.467728614807129,
+  "comb_p95": 2.5972118377685547
+ },
+ "sub-EC133_task-stim_acq-natus_run-02": {
+  "sfreq": 8192.0,
+  "n_contacts": 128,
+  "duration_s": 197.157,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "14.813110",
+    "163.227539",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 3.7286343574523926,
+  "comb_p95": 4.08652400970459
+ },
+ "sub-EC133_task-stim_acq-natus_run-03": {
+  "sfreq": 8192.0,
+  "n_contacts": 128,
+  "duration_s": 277.514,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "18.046143",
+    "157.926514",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.50349760055542,
+  "comb_p95": 2.7920734882354736
+ },
+ "sub-EC133_task-stim_acq-natus_run-04": {
+  "sfreq": 8192.0,
+  "n_contacts": 128,
+  "duration_s": 321.288,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "13.584473",
+    "146.541260",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.12298043817281723,
+  "comb_p95": 2.3150391578674316
+ },
+ "sub-EC137_task-sps_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 8,
+  "duration_s": 305.176,
+  "n_candidates": 41,
+  "n_pulses": 40,
+  "n_trains": 2,
+  "train_sizes": [
+   20,
+   20
+  ],
+  "rejected_onsets_s": [
+   97.188232
+  ]
+ },
+ "sub-EC137_task-stim_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 82,
+  "duration_s": 165.423,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "32.311646",
+    "100.799072",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 1.5150617361068726,
+  "comb_p95": 1.728209137916565
+ },
+ "sub-EC137_task-stim_acq-natus_run-02": {
+  "sfreq": 8192.0,
+  "n_contacts": 82,
+  "duration_s": 180.433,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "53.594238",
+    "100.477661",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 4.040076732635498,
+  "comb_p95": 4.303537368774414
+ },
+ "sub-EC137_task-stim_acq-natus_run-03": {
+  "sfreq": 8192.0,
+  "n_contacts": 82,
+  "duration_s": 157.224,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "33.798828",
+    "100.487793",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 4.118907928466797,
+  "comb_p95": 4.362948894500732
+ },
+ "sub-EC137_task-stim_acq-natus_run-04": {
+  "sfreq": 8192.0,
+  "n_contacts": 82,
+  "duration_s": 158.009,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "32.831177",
+    "103.135620",
+    "spectral"
+   ]
+  ],
+  "comb_p50": 4.108548641204834,
+  "comb_p95": 4.333254814147949
+ },
+ "sub-EC139_task-sps_acq-natus_run-01": {
+  "sfreq": 2048.0,
+  "n_contacts": 4,
+  "duration_s": 366.376,
+  "n_candidates": 41,
+  "n_pulses": 40,
+  "n_trains": 2,
+  "train_sizes": [
+   20,
+   20
+  ],
+  "rejected_onsets_s": [
+   220.265137
+  ]
+ },
+ "sub-EC142_task-stim_acq-tdt_run-01": {
+  "sfreq": 3051.7578,
+  "n_contacts": 88,
+  "duration_s": 180.251,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "21.475164",
+    "140.534088",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 5.370134353637695,
+  "comb_p95": 5.50291109085083
+ },
+ "sub-EC142_task-stim_acq-tdt_run-02": {
+  "sfreq": 3051.7578,
+  "n_contacts": 88,
+  "duration_s": 161.195,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "16.074670",
+    "124.250358",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 5.1364593505859375,
+  "comb_p95": 5.3654608726501465
+ },
+ "sub-EC142_task-stim_acq-tdt_run-03": {
+  "sfreq": 3051.7578,
+  "n_contacts": 88,
+  "duration_s": 126.617,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "20.041564",
+    "96.561070",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 3.9910194873809814,
+  "comb_p95": 4.097438812255859
+ },
+ "sub-EC142_task-stim_acq-tdt_run-04": {
+  "sfreq": 3051.7578,
+  "n_contacts": 88,
+  "duration_s": 126.389,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "12.213289",
+    "101.762007",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 4.65916109085083,
+  "comb_p95": 4.983858108520508
+ },
+ "sub-EC142_task-stim_acq-tdt_run-05": {
+  "sfreq": 3051.7578,
+  "n_contacts": 88,
+  "duration_s": 124.918,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "9.072476",
+    "90.827981",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 5.001186370849609,
+  "comb_p95": 5.23996639251709
+ },
+ "sub-EC150_task-sps_acq-natus_run-01": {
+  "sfreq": 1024.0,
+  "n_contacts": 7,
+  "duration_s": 515.521,
+  "n_candidates": 41,
+  "n_pulses": 40,
+  "n_trains": 2,
+  "train_sizes": [
+   20,
+   20
+  ],
+  "rejected_onsets_s": [
+   140.867188
+  ]
+ },
+ "sub-EC150_task-stim_acq-neuroomega_run-01": {
+  "sfreq": 22000.0,
+  "n_contacts": 64,
+  "duration_s": 281.379,
+  "contact_types_used": "MISC",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "36.240273",
+    "199.225273",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 3.669996738433838,
+  "comb_p95": 3.760984420776367
+ },
+ "sub-EC150_task-stim_acq-neuroomega_run-02": {
+  "sfreq": 22000.0,
+  "n_contacts": 64,
+  "duration_s": 331.055,
+  "contact_types_used": "MISC",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "34.907636",
+    "210.931455",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 3.429732322692871,
+  "comb_p95": 3.5621252059936523
+ },
+ "sub-EC150_task-stim_acq-neuroomega_run-03": {
+  "sfreq": 22000.0,
+  "n_contacts": 64,
+  "duration_s": 440.875,
+  "contact_types_used": "MISC",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "44.888364",
+    "215.499409",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.342358261346817,
+  "comb_p95": 3.479461908340454
+ },
+ "sub-EC151_task-stim_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 60,
+  "duration_s": 297.577,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "28.844482",
+    "225.458252",
+    "spectral"
+   ]
+  ],
+  "comb_p50": 0.7491245269775391,
+  "comb_p95": 1.0565472841262817
+ },
+ "sub-EC152_task-stim_acq-neuroomega_run-01": {
+  "sfreq": 22000.0,
+  "n_contacts": 64,
+  "duration_s": 458.816,
+  "contact_types_used": "MISC",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "214.332045",
+    "173.594318",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.25013986229896545,
+  "comb_p95": 1.3109526634216309
+ },
+ "sub-EC153_task-sps_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 8,
+  "duration_s": 1357.008,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_candidates": 133,
+  "n_pulses": 120,
+  "n_trains": 6,
+  "train_sizes": [
+   20,
+   20,
+   20,
+   20,
+   20,
+   20
+  ],
+  "rejected_onsets_s": [
+   0.818848,
+   1.496216,
+   264.256348,
+   414.68103,
+   741.406616,
+   921.016357,
+   1070.525146,
+   1201.084229,
+   1210.946289,
+   1242.126831,
+   1276.889282,
+   1303.793579,
+   1346.414062
+  ]
+ },
+ "sub-EC153_task-stim_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 72,
+  "duration_s": 113.6,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "52.796509",
+    "30.741577",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.07153543084859848,
+  "comb_p95": 3.0269346237182617
+ },
+ "sub-EC153_task-stim_acq-natus_run-02": {
+  "sfreq": 8192.0,
+  "n_contacts": 72,
+  "duration_s": 71.688,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "15.932373",
+    "29.225708",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.19461123645305634,
+  "comb_p95": 3.7739200592041016
+ },
+ "sub-EC153_task-stim_acq-natus_run-03": {
+  "sfreq": 8192.0,
+  "n_contacts": 72,
+  "duration_s": 84.988,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "24.848145",
+    "38.080688",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.19528278708457947,
+  "comb_p95": 2.863734245300293
+ },
+ "sub-EC153_task-stim_acq-natus_run-04": {
+  "sfreq": 8192.0,
+  "n_contacts": 72,
+  "duration_s": 109.372,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "64.828613",
+    "33.138184",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.08350212872028351,
+  "comb_p95": 3.939124345779419
+ },
+ "sub-EC153_task-stim_acq-natus_run-05": {
+  "sfreq": 8192.0,
+  "n_contacts": 72,
+  "duration_s": 140.754,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "10.903931",
+    "39.878174",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 0.10628477483987808,
+  "comb_p95": 3.7771873474121094
+ },
+ "sub-EC155_task-sps_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 4,
+  "duration_s": 357.76,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_candidates": 43,
+  "n_pulses": 40,
+  "n_trains": 2,
+  "train_sizes": [
+   20,
+   20
+  ],
+  "rejected_onsets_s": [
+   47.17688,
+   88.278198,
+   302.792725
+  ]
+ },
+ "sub-EC162_task-stim_acq-natus_run-01": {
+  "sfreq": 8192.0,
+  "n_contacts": 110,
+  "duration_s": 239.956,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "28.295532",
+    "182.823975",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.1983835697174072,
+  "comb_p95": 2.3923397064208984
+ },
+ "sub-EC175_task-stim_acq-tdt_run-01": {
+  "sfreq": 24414.0625,
+  "n_contacts": 60,
+  "duration_s": 307.881,
+  "contact_types_used": "ECOG/SEEG/DBS",
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "24.232509",
+    "254.849434",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 1.7200021743774414,
+  "comb_p95": 2.16091251373291
+ },
+ "sub-EC99_task-stim_acq-natus_run-01": {
+  "sfreq": 16384.0,
+  "n_contacts": 99,
+  "duration_s": 386.043,
+  "n_blocks": 1,
+  "blocks": [
+   [
+    "43.314697",
+    "222.469849",
+    "pulse_refined"
+   ]
+  ],
+  "comb_p50": 2.475595474243164,
+  "comb_p95": 2.7064054012298584
+ }
+}

@@ -1,0 +1,5 @@
+onset	duration	trial_type	sample	peak_score	n_pulses	method
+57.777344	92.138794	stim_block_100Hz	473312	1.24	n/a	spectral
+152.305664	28.192017	stim_block_100Hz	1247688	0.99	n/a	pulse_refined
+182.786743	47.508789	stim_block_100Hz	1497389	1.16	n/a	pulse_refined
+237.172852	42.177490	stim_block_100Hz	1942920	1.01	n/a	pulse_refined

@@ -1,6 +1,7 @@
 1.0.3 2026-10-30
 
   - Fix empty cells in the channel tables
+  - Stimulation onsets detected from the stimulation artefact, as a clearly labelled derivative (derivatives/stimartefact; NOT from a source: method, thresholds and counts in its README, code in code/fix-20261030_stimartefact). events.tsv unchanged.
 
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
