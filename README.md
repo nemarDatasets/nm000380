@@ -68,6 +68,8 @@ subjects with moderate-to-severe baseline depression symptoms and suppressed low
 - `task-sps`: `EC##_rawData_SPS.mat` single-pulse stimulation recordings.
 - `channels.tsv`: names, long names, electrode type and region from the release (selectAnatomy / Anatomy cells).
   Types: grid/strip -> ECOG, depth -> SEEG, EKG -> ECG, unstated -> MISC.
+  Empty release cells are `n/a`: until 30 Oct 2026, 7 channels.tsv files (e.g. sub-EC122 natus run-01, sub-EC175 tdt
+  run-01) carried `NaN` or NUL bytes (MATLAB empty char) in `source_name`, `long_name`, `electrode_type` or `region`.
 - `electrodes.tsv`: elecmatrix + anatomy from the subject's clinical_elecs_all.mat / TDT_elecs_all.mat (space-Other,
   mm, patient space of the authors' reconstruction); n/a coordinates where the release has no electrode file.
 
@@ -77,7 +79,8 @@ subjects with moderate-to-severe baseline depression symptoms and suppressed low
   `sourcedata/dryad-q6vd6wm2/`. No filtering, resampling, re-referencing or channel removal.
 - Units are not stated in the release. Natus and NeuroOmega values are stored as µV (magnitudes of tens to
   thousands; 34843.74 is a recurring saturation value in Natus files); TDT values (|x| < 0.2) are stored as V.
-- Stimulation and pulse times are not annotated in the release.
+- Stimulation and pulse times are not annotated in the release, and `events.tsv` has one row per run. The stimulation
+  artefact is visible in the signals, but no artefact-derived onsets are added here.
 - Files not converted:
   - iEEG_DuringStimulation_EC155.zip::iEEG_DuringStimulation_EC155/EC155_NO_1mA.mat: not readable as MATLAB v7.3/HDF5 (OSError('Unable to synchronously open file (file signature not found)'))
 - The release's `iEEG_NaturalBehavior.zip` (OFC ECoG segments around mood self-reports) is NOT included: its
