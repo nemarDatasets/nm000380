@@ -68,6 +68,8 @@ subjects with moderate-to-severe baseline depression symptoms and suppressed low
 - `task-sps`: `EC##_rawData_SPS.mat` single-pulse stimulation recordings.
 - `channels.tsv`: names, long names, electrode type and region from the release (selectAnatomy / Anatomy cells).
   Types: grid/strip -> ECOG, depth -> SEEG, EKG -> ECG, unstated -> MISC.
+  Empty release cells are `n/a`: until 30 Oct 2026, 7 channels.tsv files (e.g. sub-EC122 natus run-01, sub-EC175 tdt
+  run-01) carried `NaN` or NUL bytes (MATLAB empty char) in `source_name`, `long_name`, `electrode_type` or `region`.
 - `electrodes.tsv`: elecmatrix + anatomy from the subject's clinical_elecs_all.mat / TDT_elecs_all.mat (space-Other,
   mm, patient space of the authors' reconstruction); n/a coordinates where the release has no electrode file.
 
@@ -77,7 +79,8 @@ subjects with moderate-to-severe baseline depression symptoms and suppressed low
   `sourcedata/dryad-q6vd6wm2/`. No filtering, resampling, re-referencing or channel removal.
 - Units are not stated in the release. Natus and NeuroOmega values are stored as µV (magnitudes of tens to
   thousands; 34843.74 is a recurring saturation value in Natus files); TDT values (|x| < 0.2) are stored as V.
-- Stimulation and pulse times are not annotated in the release.
+- Stimulation and pulse times are not annotated in the release, and `events.tsv` has one row per run. The stimulation
+  artefact is visible in the signals, but no artefact-derived onsets are added here.
 - Files not converted:
   - iEEG_DuringStimulation_EC155.zip::iEEG_DuringStimulation_EC155/EC155_NO_1mA.mat: not readable as MATLAB v7.3/HDF5 (OSError('Unable to synchronously open file (file signature not found)'))
 - The release's `iEEG_NaturalBehavior.zip` (OFC ECoG segments around mood self-reports) is NOT included: its
@@ -116,3 +119,19 @@ Depression. Current Biology 28(24):3893-3902.e4. doi:10.1016/j.cub.2018.10.026. 
 Verbatim from Rao VR, Sellers KK, Wallace DL, Lee MB, Bijanzadeh M, Sani OG, Yang Y, Shanechi MM, Dawes HE, Chang EF (2018). Direct Electrical Stimulation of Lateral Orbitofrontal Cortex Acutely Improves Mood in Individuals with Symptoms of Depression. Current Biology 28(24):3893-3902.e4. https://doi.org/10.1016/j.cub.2018.10.026, STAR Methods, "Experimental Model and Subject Details":
 
 > The experimental protocol was approved by the Committee for Human Research at the University of California, San Francisco. Written informed consent was obtained from all subjects.
+
+## Channel name with a trailing space (fixed 18 Oct 2026)
+
+In `sub-EC152_task-stim_acq-neuroomega_run-01_ieeg.vhdr` ('frontal A 1 ') the BrainVision header named a channel with a trailing space. MNE keeps the header name as is, while MNE-BIDS strips the channels.tsv value, so `read_raw_bids` stopped with 'Channel mismatch'. The space was removed from the .vhdr channel name and from channels.tsv (the name now equals channels.tsv, electrodes.tsv and the other runs). The .eeg data file is unchanged; the corrected .vhdr is stored as a plain git file.
+
+## Line noise in the stimulation runs (checked 19 Oct 2026)
+
+`PowerLineFrequency` is 60 Hz for every run (UCSF, USA), and the data confirm it. Some stimulation and single-pulse runs
+also show a line near 50 Hz (for example sub-EC108 and sub-EC162 task-stim run-01, where an automated check found 50 Hz
+stronger than 60 Hz over the run). This component is a stimulation artefact, not mains: in spectra of 42 runs (whole file
+and 10-s windows; median over up to 48 contacts) it appears in 21 runs, mostly with lines at 150 and 250 Hz (both above 10 dB in 14 runs), and
+only in the windows where the 100-Hz stimulation line is present (correlation of the 10-s line strengths 0.38-1.00, above
+0.9 in 16 runs); in the windows without stimulation its median strength is 0.5-2.5 dB, while the 60-Hz line is present in
+those windows in all 42 runs (median 10-61 dB above the neighbouring bands; whole-run peak at 60.0 Hz in 38 runs). In sub-EC162 run-01, for
+example, the 60-Hz line is 26-27 dB in the first 20 s and the last 10 s (no stimulation) and 1-3 dB during it, when the
+50-Hz line is 18-21 dB and the 100-Hz line 29-32 dB. No metadata were changed.
