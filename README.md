@@ -68,8 +68,6 @@ subjects with moderate-to-severe baseline depression symptoms and suppressed low
 - `task-sps`: `EC##_rawData_SPS.mat` single-pulse stimulation recordings.
 - `channels.tsv`: names, long names, electrode type and region from the release (selectAnatomy / Anatomy cells).
   Types: grid/strip -> ECOG, depth -> SEEG, EKG -> ECG, unstated -> MISC.
-  Empty release cells are `n/a`: until 30 Oct 2026, 7 channels.tsv files (e.g. sub-EC122 natus run-01, sub-EC175 tdt
-  run-01) carried `NaN` or NUL bytes (MATLAB empty char) in `source_name`, `long_name`, `electrode_type` or `region`.
 - `electrodes.tsv`: elecmatrix + anatomy from the subject's clinical_elecs_all.mat / TDT_elecs_all.mat (space-Other,
   mm, patient space of the authors' reconstruction); n/a coordinates where the release has no electrode file.
 
@@ -79,12 +77,7 @@ subjects with moderate-to-severe baseline depression symptoms and suppressed low
   `sourcedata/dryad-q6vd6wm2/`. No filtering, resampling, re-referencing or channel removal.
 - Units are not stated in the release. Natus and NeuroOmega values are stored as µV (magnitudes of tens to
   thousands; 34843.74 is a recurring saturation value in Natus files); TDT values (|x| < 0.2) are stored as V.
-- Stimulation and pulse times are not annotated in the release, and `events.tsv` has one row per run. The stimulation
-  artefact is visible in the signals; `events.tsv` stays as released. Artefact-derived onsets, clearly labelled as
-  NOT from a source, are in a separate derivative, `derivatives/stimartefact/`: one 100 Hz block in 39 of the 40
-  continuous-stimulation runs (sub-EC108 run-01, 1 mA, has a weak artefact and is split into 4 segments) and 280 single
-  pulses in 14 trains of 20 in the 5 single-pulse runs. Method, thresholds and counts are in its README; code in
-  `code/fix-20261030_stimartefact/`.
+- Stimulation and pulse times are not annotated in the release.
 - Files not converted:
   - iEEG_DuringStimulation_EC155.zip::iEEG_DuringStimulation_EC155/EC155_NO_1mA.mat: not readable as MATLAB v7.3/HDF5 (OSError('Unable to synchronously open file (file signature not found)'))
 - The release's `iEEG_NaturalBehavior.zip` (OFC ECoG segments around mood self-reports) is NOT included: its
@@ -92,6 +85,19 @@ subjects with moderate-to-severe baseline depression symptoms and suppressed low
   BDI/trait scores, speech rate) and the authors' MATLAB scripts are in sourcedata.
 - Age, sex and handedness are not in the release (n/a). Age and sex (and other Table S1 fields) were added from the
   paper's supplement on 2026-10-07; handedness remains n/a.
+
+Updated in version 1.0.3 by the depositors of this NEMAR copy (the published text above is kept unchanged; these items replace or extend it):
+
+- `channels.tsv`: names, long names, electrode type and region from the release (selectAnatomy / Anatomy cells).
+  Types: grid/strip -> ECOG, depth -> SEEG, EKG -> ECG, unstated -> MISC.
+  Empty release cells are `n/a`: until 30 Oct 2026, 7 channels.tsv files (e.g. sub-EC122 natus run-01, sub-EC175 tdt
+  run-01) carried `NaN` or NUL bytes (MATLAB empty char) in `source_name`, `long_name`, `electrode_type` or `region`.
+- Stimulation and pulse times are not annotated in the release, and `events.tsv` has one row per run. The stimulation
+  artefact is visible in the signals; `events.tsv` stays as released. Artefact-derived onsets, clearly labelled as
+  NOT from a source, are in a separate derivative, `derivatives/stimartefact/`: one 100 Hz block in 39 of the 40
+  continuous-stimulation runs (sub-EC108 run-01, 1 mA, has a weak artefact and is split into 4 segments) and 280 single
+  pulses in 14 trains of 20 in the 5 single-pulse runs. Method, thresholds and counts are in its README; code in
+  `code/fix-20261030_stimartefact/`.
 
 ## Known caveats
 - See "Conversion notes" above (float64 -> float32 storage, units not stated in the release, unannotated
