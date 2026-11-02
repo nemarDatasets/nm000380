@@ -1,7 +1,17 @@
 1.0.3 2026-10-30
 
-  - Fix empty cells in the channel tables
-  - Stimulation onsets detected from the stimulation artefact, as a clearly labelled derivative (derivatives/stimartefact; NOT from a source: method, thresholds and counts in its README, code in code/fix-20261030_stimartefact). events.tsv unchanged.
+  - channels.tsv (7 files: sub-EC122 natus run-01, sub-EC142 tdt runs 1-5, sub-EC175 tdt run-01): release cells
+    that were written as NaN or NUL bytes (MATLAB empty char) in source_name, long_name, electrode_type or region
+    are written n/a; no other value changed.
+  - sub-EC152 task-stim neuroomega run-01: the channel name 'frontal A 1 ' had a trailing space; it is 'frontal A
+    1' in channels.tsv (name column; source_name keeps the release string) and in the BrainVision header. The
+    header (*_ieeg.vhdr, 2,019 bytes, text only) moves from the annex to plain git with only that name changed;
+    the .eeg signal file is unchanged. This is the one recorded-data file this version changes.
+  - derivatives/stimartefact (92 files) and code/fix-20261030_stimartefact (6 files): stimulation onsets detected
+    from the stimulation artefact, clearly labelled as not from a source (method, thresholds and counts in its
+    README). events.tsv unchanged.
+  - README: the published text is kept unchanged; paragraphs and sections added after it describe the n/a cells,
+    the channel-name fix, the derivative and the line noise in the stimulation runs.
 
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
